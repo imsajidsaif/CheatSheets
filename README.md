@@ -51,7 +51,7 @@ Steps:
                                             RandomForestRegressor            RandomForestClassifier
                                             VotingRegressor                  VotingClassifier
                                                                       
-                ------------------------------------------End ML Algorith..........................................
+                ------------------------------------------End ML Algorithms..........................................
                 
                                             
                                             
