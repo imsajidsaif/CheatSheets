@@ -23,7 +23,7 @@ Steps:
                                                                 |
                                              starting with Scikit-Learn(python ML library)
                                                                 |
-                                             start learning about different type of problems
+                          start learning about different type of problems of Supervised Machine Learning Techniues
                                                                 |
                                                                -  -
                                                             -          -
@@ -31,6 +31,30 @@ Steps:
                                                       -                      -
                                                    -                             -
                                             Regression Based                Classification Based
+                                                 |                               |
+                                            Algorithms-                     Algorithms-
+                                                 |                               |
+                                            Linear Regression               Logistic Regression
+                                            SVR(SVM)                        Decision Tree Classifier
+                                            K-Nearest Neighbor              Random Forest
+                                            Ridge Regression                Support Vector Machines(SVC)
+                                            Lasso Regression                KNN
+                                            DecisionTreeRegressor           Passive Aggressive Classifier  
+                                            Naive bayes                     Naive bayes
+                                            
+                                                         Boostning Mathods
+                                                                 |
+                                            AdaBoostRegressor                AdaBoostClassifier
+                                            BaggingRegressor                 BaggingClassifier
+                                            ExtraTreesRegressor              ExtraTreesClassifier
+                                            GradientBoostingRegressor        GradientBoostingClassifier
+                                            RandomForestRegressor            RandomForestClassifier
+                                            VotingRegressor                  VotingClassifier
+                                                                      
+                ------------------------------------------End ML Algorith..........................................
+                
+                                            
+                                            
                                                    
                                                    
                                                          
