@@ -1,0 +1,34 @@
+'''
+#identification
+\d ----> any number
+\D ----> anything but a number
+\s ----> space
+\S ----> anything but space
+\w ----> any charecter
+\W ----> anything but a charecter
+.  ----> any char except the new line
+\b ----> white space around the words
+.\ ----> period
+#modifiers
+{1,3} ---> expecting 1-3 --> \d{1,3}
++ -------> match 1 or more
+?  -------> match 0 or  1
+* --------> match 1 or more
+^ --------> starting the begining of string
+| --------> either case
+[] --------> range
+'''
+import re
+string="my name is sajid saifi and i was born on 17-02-1997"
+#start with re.search
+a=list(re.search("sajid",string).span())
+print("range of word: ",a)
+print("searching word was :",string[a[0]:a[-1]])
+
+re.search("sajid.+",string).end()### ending index
+re.search("sajid.+",string).start() # start index
+re.search("sajid.+",string).group() # completed search word
+
+
+# re.findall()
+re.findall(r'\d{1,2}-\d{1,2}-\d{1,4}',string)
