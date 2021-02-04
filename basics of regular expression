@@ -28,7 +28,7 @@ print("searching word was :",string[a[0]:a[-1]])
 re.search("sajid.+",string).end()### ending index
 re.search("sajid.+",string).start() # start index
 re.search("sajid.+",string).group() # completed search word
-
-
+# replace word with wrong word using sub function of regular expression
+re.sub("sajid","MHOD sajid",string)
 # re.findall()
 re.findall(r'\d{1,2}-\d{1,2}-\d{1,4}',string)
